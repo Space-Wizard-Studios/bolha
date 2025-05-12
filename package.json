@@ -4,7 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check-deps": "pnpm dlx depcheck --ignore-patterns=*.d.ts",
+    "cms:build": "pnpm --filter sw-site-cms build",
+    "cms:deploy": "fly deploy --config apps/cms/fly.toml --dockerfile apps/cms/Dockerfile",
+    "cms:deploy-no-cache": "fly deploy --config apps/cms/fly.toml --dockerfile apps/cms/Dockerfile --no-cache",
+    "cms:dev": "pnpm --filter sw-site-cms dev",
+    "cms:start": "pnpm --filter sw-site-cms start",
+    "cms:payload": "pnpm --filter sw-site-cms payload",
+    "dev": "concurrently \"pnpm --filter sw-site dev\" \"pnpm --filter sw-site-cms dev\"",
+    "site:dev": "pnpm --filter sw-site dev",
+    "site:build": "pnpm --filter sw-site build",
+    "site:preview": "pnpm --filter sw-site preview",
+    "site:astro": "pnpm --filter sw-site astro"
   },
   "keywords": [],
   "author": "",
