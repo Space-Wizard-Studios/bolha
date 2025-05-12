@@ -22,6 +22,7 @@ Bolha é um agregador de conteúdo que permite aos usuários:
 - Categorizar e salvar vídeos manualmente enquanto navegam
 - Compartilhar "bolhas" (coleções temáticas de conteúdo)
 - Receber notificações personalizadas
+- Receber email diário ou semanal com novos vídeos
 - Acompanhar criadores ignorados pelo algoritmo
 
 ---
