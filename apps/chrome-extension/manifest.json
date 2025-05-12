@@ -1,9 +1,14 @@
 {
-  "name": "Hello World",
+  "name": "React Tailwind Extension",
   "version": "0.1",
   "manifest_version": 3,
-  "description": "Basic Hello World Extension",
+  "description": "A Chrome extension built with React and Tailwind CSS 4.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    }
+  },
   "background": {
-    "service_worker": "service-worker-broken.js"
+    "service_worker": "service-worker-fixed.js"
   }
 }
