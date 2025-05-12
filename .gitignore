@@ -2,6 +2,9 @@
 .env
 .env.production
 
+# zip files
+*.zip
+
 # build output
 dist/
 .output/
