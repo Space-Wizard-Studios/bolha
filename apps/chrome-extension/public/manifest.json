@@ -1,6 +1,6 @@
 {
   "name": "React Tailwind Extension",
-  "version": "0.1",
+  "version": "0.0.1",
   "manifest_version": 3,
   "description": "A Chrome extension built with React and Tailwind CSS 4.0",
   "action": {
