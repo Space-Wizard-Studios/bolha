@@ -1,0 +1,9 @@
+{
+  "name": "Hello World",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Basic Hello World Extension",
+  "background": {
+    "service_worker": "service-worker-broken.js"
+  }
+}
